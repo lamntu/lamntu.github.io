@@ -14,5 +14,8 @@ My research centres on the security and quality assurance of software systems, w
 News
 ======
 
-- Our paper "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers" got accepted by FSE 2025! 
+- Our paper "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers" got accepted by FSE 2025!
+
+  <small>This is small text</small>
+-
 
