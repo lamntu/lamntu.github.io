@@ -13,20 +13,20 @@ title                    : "Lam's Homepage"
 title_separator          : "-"
 name                     : &name "Lam Nguyen Tung"
 description              : &description "Hi! This is my homepage"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://lamntu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "lamntu/lamntu.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "my-photo.JPG"
+  avatar           : "my-photo.png"
   name             : "Lam Nguyen Tung"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Australia"
+  bio              : # Bio
+  location         : "Melbourne, Australia"
   employer         : "Monash University"
   uri              : # URL
   email            : "lam.nguyentung@monash.edu" 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "tung-lam-nguyen-659209265"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
