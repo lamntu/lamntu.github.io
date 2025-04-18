@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: ""
+title: "👋 Hello there, I'm Lam"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# 👋 Hello there, I'm Lam
 
 I am a Ph.D. student at the Faculty of Information Technology, Monash University. I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. Pham Ngoc Hung.
 
