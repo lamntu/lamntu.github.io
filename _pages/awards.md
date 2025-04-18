@@ -4,6 +4,7 @@ permalink: /awards/
 author_profile: true
 ---
 
+<!-- 
 <style>
   /* Create two equal columns that floats next to each other */
   .time {
@@ -45,20 +46,19 @@ author_profile: true
     <p>Monash Graduate Scholarship, Monash University</p>
     <p>Monash International Tuition Scholarship, Monash University</p>
   </div>
-</div>
+</div> 
+-->
 
-## 2024
+## 2024 - 2028
 
 Monash Graduate Scholarship, Monash University
 
 Monash International Tuition Scholarship, Monash University
 
-## 2022
+## 2021 - 2022
 
 Postgraduate Scholarship Program Grant, Vingroup
 
 ## 2021
-
-Postgraduate Scholarship Program Grant, Vingroup
 
 First Prize in Student Scientific Research Competition, Vietnam National University (VNU)
