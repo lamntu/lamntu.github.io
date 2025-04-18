@@ -1,7 +1,22 @@
 ---
 title: "Awards"
 permalink: /awards/
-author_profile: false
+author_profile: true
 ---
 
-?? guess what
+
+## 2024
+
+Monash Graduate Scholarship, Monash University
+
+Monash International Tuition Scholarship, Monash University
+
+## 2022
+
+Postgraduate Scholarship Program Grant, Vingroup
+
+## 2021
+
+Postgraduate Scholarship Program Grant, Vingroup
+
+First Prize in Student Scientific Research Competition, Vietnam National University (VNU)
