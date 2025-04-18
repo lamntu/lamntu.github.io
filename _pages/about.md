@@ -29,7 +29,7 @@ My research centres on the security and quality assurance of software systems, w
     margin: 0 0 1.3em;
   }
 
-  li > p {
+  li p {
      margin-bottom: 0;
   }
 
@@ -38,8 +38,9 @@ My research centres on the security and quality assurance of software systems, w
   }
 </style>
 
-- <div class="time">Apr 16, 2025</div> I will serve on the Program Committee of ISSRE 2025.
 
-- <div class="time">Apr 11, 2025</div> I have been selected as a Student Volunteer for ESEC/FSE 2025! :tada:
-
-- <div class="time">Apr 02, 2025</div> Our paper "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers" got accepted by ESEC/FSE 2025! :partying_face:
+<ul class="no-bullets">
+  <li><div class="time">Apr 16, 2025</div> I will serve on the Program Committee of ISSRE 2025.</li>
+  <li><div class="time">Apr 11, 2025</div> I have been selected as a Student Volunteer for ESEC/FSE 2025! :tada:</li>
+  <li><div class="time">Apr 02, 2025</div> Our paper "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers" got accepted by ESEC/FSE 2025! :partying_face:</li>
+</ul>
