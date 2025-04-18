@@ -1,7 +1,7 @@
 ---
 title: "Awards"
 permalink: /awards/
-author_profile: true
+author_profile: false
 ---
 
 <!-- 

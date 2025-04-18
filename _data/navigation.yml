@@ -15,8 +15,8 @@ main:
     url: https://scholar.google.com.au/citations?user=i0vG-4UAAAAJ&hl=ens
     # url: /publications/
 
-  - title: "Awards"
-    url: /awards/
+  # - title: "Awards"
+  #   url: /awards/
 
   # - title: "Talks"
   #   url: /talks/    
