@@ -18,9 +18,18 @@ My research centres on the security and quality assurance of software systems, w
 <style>
   .time {
     font-size: 0.9em;
-    margin-bottom: 0.3em;
+    margin-bottom: 0;
     font-weight: bold;
     opacity: 0.7;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+    margin: 0 0 1.3em;
+  }
+
+  li {
+    margin-bottom: 0.8em;
   }
 </style>
 
