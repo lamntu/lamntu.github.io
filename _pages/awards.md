@@ -13,6 +13,7 @@ author_profile: true
   }
 
   .award {
+    float: left;
     width: 80%;
   }
 
@@ -37,10 +38,10 @@ author_profile: true
 </style>
 
 <div class="row">
-  <div class="column time" style="background-color:#aaa;">
+  <div class="column time">
     <p>2024-2028</p>
   </div>
-  <div class="column award" style="background-color:#bbb;">
+  <div class="column award">
     <p>Monash Graduate Scholarship, Monash University</p>
     <p>Monash International Tuition Scholarship, Monash University</p>
   </div>
