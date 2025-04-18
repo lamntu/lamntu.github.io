@@ -23,12 +23,17 @@ My research centres on the security and quality assurance of software systems, w
     opacity: 0.7;
   }
 
-  ul {
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
     padding-inline-start: 0px;
     margin: 0 0 1.3em;
   }
 
-  li {
+  li > p {
+     margin-bottom: 0;
+  }
+
+  ul.no-bullets li {
     margin-bottom: 0.8em;
   }
 </style>
