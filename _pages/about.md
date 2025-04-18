@@ -11,8 +11,22 @@ I am a Ph.D. student at the Faculty of Information Technology, Monash University
 
 My research centres on the security and quality assurance of software systems, with a particular emphasis on software testing and automated repair. I am especially interested in the trustworthiness of intelligent software engineering tools. My work involves developing and applying novel techniques in artificial intelligence and program analysis to support these goals.
 
-# 📢 News
+# News 📢
 
-**Apr 02, 2025**
+<style>
+  .time {
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    opacity: 0.7;
+  }
+</style>
 
-Our paper "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers" got accepted by FSE 2025.
+<div class="time">Apr 16, 2025</div>
+I will serve on the Program Committee of ISSRE 2025.
+
+<div class="time">Apr 11, 2025</div>
+I have been selected as a Student Volunteer for ESEC/FSE 2025! :tada:
+
+<div class="time">Apr 02, 2025</div>
+Our paper "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers" got accepted by ESEC/FSE 2025! :partying_face:
