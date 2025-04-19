@@ -59,6 +59,8 @@ Our paper "[Automated Trustworthiness Oracle Generation for Machine Learning Tex
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
 In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE), 2025 | Conference Rank: CORE A*<br>
 <a class="publ-action" href="https://doi.org/10.1145/3729376">DOI:10.1145/3729376</a>
+[![DOI](https://zenodo.org/badge/515394665.svg)](https://zenodo.org/badge/latestdoi/515394665)
+
 
 **An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Hoang-Viet Tran, Khoi Nguyen Le, Pham Ngoc Hung<br>
