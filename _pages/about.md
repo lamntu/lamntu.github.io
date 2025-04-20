@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2-year Ph.D. student at the Faculty of Information Technology, Monash University, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
+I am a 2nd year Ph.D student at the Faculty of Information Technology, Monash University, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
 I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. Pham Ngoc Hung.
 
 My research centres on the security and quality assurance of software systems, with a particular emphasis on software testing and automated repair. I am especially interested in the trustworthiness of intelligent software engineering tools. My work involves developing and applying novel techniques in artificial intelligence and program analysis to support these goals.
@@ -89,7 +89,7 @@ First Prize in Student Scientific Research Competition, Vietnam National Univers
 
 ## Current Project: Trustworthiness Testing of Machine Learning-based Systems
 
-Machine learning has been extensively applied to many aspects of our life. However, concerns persist about the trustworthiness of machine learning-based systems, as they can rely on irrelevent features, which leads to problematic decisions. Conventional metrics have been demonstrated as insufficient for establishing trust, prompting the need for trustworthiness testing to ensure decisions are made for the right reasons. Current testing approaches are limited by their dependence on manual validation from domain experts, which is time-consuming, error-prone, and not scalable due. To overcome this, the proposed research seeks to develop automated techniques for testing and improving the trustworthiness of machine learning-based systems. This offers opportunities to foster greater trust in these systems, greatly advancing their development and applications in the real world.<br>
+Machine learning has been extensively applied to many aspects of our life. However, concerns persist about the trustworthiness of machine learning-based systems, as they can rely on irrelevent features, which leads to problematic decisions. Conventional metrics have been demonstrated as insufficient for establishing trust, prompting the need for trustworthiness testing to ensure decisions are made for the right reasons. Current testing approaches are limited by their dependence on manual validation from domain experts, which is time-consuming, error-prone, and not scalable due. To overcome this, the proposed research seeks to develop automated techniques for testing and improving the trustworthiness of machine learning-based systems. This offers opportunities to foster greater trust in these systems, greatly advancing their development and applications in the real world.
 
 
 ## Past Project: Testing Tools for C/C++ Projects
