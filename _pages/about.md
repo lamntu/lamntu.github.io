@@ -58,21 +58,21 @@ Our paper "[Automated Trustworthiness Oracle Generation for Machine Learning Tex
 
 **Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers**<br>
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
-In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE), 2025 | Conference Rank: CORE A*<br>
+*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025 | Conference Rank: CORE A*<br>
 <button class="publ-action" onclick=" window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
 
 
 **An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Hoang-Viet Tran, Khoi Nguyen Le, Pham Ngoc Hung<br>
-Journal of Information and Software Technology | Journal Rank: Q1<br>
+*Journal of Information and Software Technology*, 2021 | Journal Rank: Q1<br>
 <button class="publ-action" onclick=" window.open('https://doi.org/10.1016/j.infsof.2022.106821','_blank')">DOI:10.1016/j.infsof.2022.106821</button>
 
 **Automated Test Data Generation and Stubbing Method for C/C++ Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Nguyen Vu Binh Duong, Khoi Nguyen Le, Pham Ngoc Hung<br>
-Journal of Automated Software Engineering | Journal Rank: Q2<br>
+*Journal of Automated Software Engineering*, 2024 | Journal Rank: Q2<br>
 <button class="publ-action" onclick=" window.open('https://doi.org/10.1007/s10515-024-00449-6','_blank')">DOI:10.1007/s10515-024-00449-6</button>
 
-View the full list of my publications [here](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
+Please view the full list of my publications at my [Google Scholar](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
 
 # 🏆 Awards, Fellowships, & Grants
 
