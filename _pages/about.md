@@ -87,13 +87,17 @@ First Prize in Student Scientific Research Competition, Vietnam National Univers
 
 # 👨‍🔬 Research Projects
 
-## Trustworthiness Testing of Machine Learning-based Systems
+## Current Project: Trustworthiness Testing of Machine Learning-based Systems
 
 Machine learning has been extensively applied to many aspects of our life. However, concerns persist about the trustworthiness of machine learning-based systems, as they can rely on irrelevent features, which leads to problematic decisions. Conventional metrics have been demonstrated as insufficient for establishing trust, prompting the need for trustworthiness testing to ensure decisions are made for the right reasons. Current testing approaches are limited by their dependence on manual validation from domain experts, which is time-consuming, error-prone, and not scalable due. To overcome this, the proposed research seeks to develop automated techniques for testing and improving the trustworthiness of machine learning-based systems. This offers opportunities to foster greater trust in these systems, greatly advancing their development and applications in the real world.<br>
-<button class="publ-action" onclick="">Learn more</button>
 
 
-## Testing Tools for C/C++ Projects
+## Past Project: Testing Tools for C/C++ Projects
+
+The research project focuses on developing automated techniques for test data generation and code change analysis in C/C++ embedded software projects. Given the complexity and resource constraints typical of embedded systems, ensuring high reliability through rigorous testing is critical. This project aims to streamline and enhance the testing process by automatically generating relevant test inputs and identifying the impact of code changes on system behaviour. By integrating static and dynamic analysis methods, we facilitate early detection of faults, improves test coverage, and supports efficient regression testing. Ultimately, the project seeks to reduce manual effort, shorten development cycles, and improve the robustness of embedded software systems.<br>
+<button class="publ-action" onclick="window.open('https://uet.vnu.edu.vn/en/researching-field-testing-car-control-software/','_blank')">Learn more</button>
+
+
 
 # 👨‍🏫 Teaching
 
