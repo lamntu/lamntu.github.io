@@ -89,10 +89,14 @@ First Prize in Student Scientific Research Competition, Vietnam National Univers
 
 ## Trustworthiness Testing of Machine Learning-based Systems
 
+Machine learning has been extensively applied to many aspects of our life. However, concerns persist about the trustworthiness of machine learning-based systems, as they can rely on irrelevent features, which leads to problematic decisions. Conventional metrics have been demonstrated as insufficient for establishing trust, prompting the need for trustworthiness testing to ensure decisions are made for the right reasons. Current testing approaches are limited by their dependence on manual validation from domain experts, which is time-consuming, error-prone, and not scalable due. To overcome this, the proposed research seeks to develop automated techniques for testing and improving the trustworthiness of machine learning-based systems. This offers opportunities to foster greater trust in these systems, greatly advancing their development and applications in the real world.
+
+
 ## Testing Tools for C/C++ Projects
 
-# Teaching
+# 👨‍🏫 Teaching
 
 <div class="time">2021 – 2024</div>
-Teaching Assistant, Faculty of Information Technology, VNU University of Engineering and Technology
+Teaching Assistant<br>
+Faculty of Information Technology, VNU University of Engineering and Technology
 
