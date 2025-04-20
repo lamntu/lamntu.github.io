@@ -7,7 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at the Faculty of Information Technology, Monash University. I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. Pham Ngoc Hung.
+I am a Ph.D. student at the Faculty of Information Technology, Monash University, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
+I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. Pham Ngoc Hung.
 
 My research centres on the security and quality assurance of software systems, with a particular emphasis on software testing and automated repair. I am especially interested in the trustworthiness of intelligent software engineering tools. My work involves developing and applying novel techniques in artificial intelligence and program analysis to support these goals.
 
