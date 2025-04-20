@@ -73,3 +73,14 @@ Journal of Automated Software Engineering | Journal Rank: Q2<br>
 <button class="publ-action" onclick=" window.open('https://doi.org/10.1007/s10515-024-00449-6','_blank')">DOI:10.1007/s10515-024-00449-6</button>
 
 View the full list of my publications [here](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
+
+# 🏆 Awards, Fellowships, & Grants
+
+<div class="time">2024 – 2028</div>
+Full Monash Graduate Scholarship and Monash International Tuition Scholarship for my PhD study
+
+<div class="time">2021 and 2022</div>
+Postgraduate Scholarship Program Grant, Vingroup
+
+<div class="time">2021</div>
+First Prize in Student Scientific Research Competition, Vietnam National University (VNU)
