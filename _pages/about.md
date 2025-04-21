@@ -66,10 +66,8 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models**<br>
 <u>Lam Nguyen Tung</u>, Xiaoning Du, Neelofar Neelofar, Aldeida Aleti<br>
-arXiv, 2025
+arXiv, 2025<br>
 <button class="publ-action" onclick=" window.open('https://doi.org/10.48550/arXiv.2503.14852','_blank')">DOI:10.48550/arXiv.2503.14852</button>
-
-
 
 **An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Hoang-Viet Tran, Khoi Nguyen Le, Pham Ngoc Hung<br>
