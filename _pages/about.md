@@ -53,6 +53,8 @@ I have been selected as a [Student Volunteer](https://conf.researchr.org/track/f
 <div class="time">Apr 02, 2025</div>
 Our paper "[Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers](https://arxiv.org/abs/2410.22663)" got accepted by [ESEC/FSE 2025](https://conf.researchr.org/home/fse-2025)! :partying_face:
 
+<div class="time">Mar 19, 2025</div>
+Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models](https://arxiv.org/abs/2503.14852)" is online at arXiv! 🤩
 
 # 📃 Selected Publications
 
@@ -60,6 +62,13 @@ Our paper "[Automated Trustworthiness Oracle Generation for Machine Learning Tex
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
 *In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025 | Conference Rank: CORE A*<br>
 <button class="publ-action" onclick=" window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
+
+
+**UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models**<br>
+<u>Lam Nguyen Tung</u>, Xiaoning Du, Neelofar Neelofar, Aldeida Aleti<br>
+arXiv, 2025
+<button class="publ-action" onclick=" window.open('https://doi.org/10.48550/arXiv.2503.14852','_blank')">DOI:10.48550/arXiv.2503.14852</button>
+
 
 
 **An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects**<br>
