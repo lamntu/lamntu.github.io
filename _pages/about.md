@@ -61,7 +61,8 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 **Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers**<br>
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
 *In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025 | Conference Rank: CORE A*<br>
-<button class="publ-action" onclick=" window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
+<button class="publ-action" onclick="window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
+<button class="publ-action" onclick="window.open('https://arxiv.org/abs/2410.22663','_blank')">arXiv</button>
 
 
 **UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models**<br>
