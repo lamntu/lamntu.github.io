@@ -44,8 +44,8 @@ My research centres on the security and quality assurance of software systems, w
   <li><div class="time">Apr 02, 2025</div> Our paper "<a href="https://arxiv.org/abs/2410.22663">Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers</a>" got accepted by <a href="https://conf.researchr.org/home/fse-2025">ESEC/FSE 2025</a>! :partying_face:</li>
 </ul> -->
 
-<div class="time">Apr 16, 2025</div>
-I will serve on the Program Committee of [The 36th IEEE International Symposium on Software Reliability Engineering (ISSRE 2025)](https://issre.github.io/2025).
+<!-- <div class="time">Apr 16, 2025</div>
+I will serve on the Program Committee of [The 36th IEEE International Symposium on Software Reliability Engineering (ISSRE 2025)](https://issre.github.io/2025). -->
 
 <div class="time">Apr 11, 2025</div>
 I have been selected as a [Student Volunteer](https://conf.researchr.org/track/fse-2025/fse-2025-student-volunteers) for [ESEC/FSE 2025](https://conf.researchr.org/home/fse-2025)! :tada:
