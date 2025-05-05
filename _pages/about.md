@@ -45,7 +45,7 @@ My research centres on the security and quality assurance of software systems, w
 
   .badge-l {
     border-radius: 0.5em 0em 0em 0.5em;
-    padding-right: 4px;
+    padding-right: 5px;
     background-color: #494e52;
   }
 
@@ -89,18 +89,28 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models**<br>
 <u>Lam Nguyen Tung</u>, Xiaoning Du, Neelofar Neelofar, Aldeida Aleti<br>
-arXiv, 2025<br>
-<button class="publ-action" onclick=" window.open('https://doi.org/10.48550/arXiv.2503.14852','_blank')">DOI:10.48550/arXiv.2503.14852</button>
+arXiv, 2025 <span class="badge" style="background-color: #b31b1b;">arXiv Preprint</span>
+<span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.48550/arXiv.2503.14852</span>
+<!-- <br>
+<button class="publ-action" onclick=" window.open('https://doi.org/10.48550/arXiv.2503.14852','_blank')">DOI:10.48550/arXiv.2503.14852</button> -->
 
 **An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Hoang-Viet Tran, Khoi Nguyen Le, Pham Ngoc Hung<br>
-*Journal of Information and Software Technology*, 2021 | Journal Rank: Q1<br>
-<button class="publ-action" onclick=" window.open('https://doi.org/10.1016/j.infsof.2022.106821','_blank')">DOI:10.1016/j.infsof.2022.106821</button>
+*Information and Software Technology*, 2021 <span class="badge" style="background-color: #FF9800;">Journal</span>
+<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #8BC34A;">Q1</span>
+<span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1016/j.infsof.2022.106821</span>
+<!-- 
+| Journal Rank: Q1<br>
+<button class="publ-action" onclick=" window.open('https://doi.org/10.1016/j.infsof.2022.106821','_blank')">DOI:10.1016/j.infsof.2022.106821</button> -->
 
 **Automated Test Data Generation and Stubbing Method for C/C++ Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Nguyen Vu Binh Duong, Khoi Nguyen Le, Pham Ngoc Hung<br>
-*Journal of Automated Software Engineering*, 2024 | Journal Rank: Q2<br>
-<button class="publ-action" onclick=" window.open('https://doi.org/10.1007/s10515-024-00449-6','_blank')">DOI:10.1007/s10515-024-00449-6</button>
+*Automated Software Engineering*, 2024 <span class="badge" style="background-color: #FF9800;">Journal</span>
+<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #8BC34A;">Q2</span>
+<span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1007/s10515-024-00449-6</span>
+<!-- 
+| Journal Rank: Q2<br>
+<button class="publ-action" onclick=" window.open('https://doi.org/10.1007/s10515-024-00449-6','_blank')">DOI:10.1007/s10515-024-00449-6</button> -->
 
 Please view the full list of my publications at my [Google Scholar](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
 
