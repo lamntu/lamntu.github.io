@@ -46,7 +46,7 @@ My research centres on the security and quality assurance of software systems, w
   .badge-l {
     border-radius: 0.5em 0em 0em 0.5em;
     padding-right: 5px;
-    background-color: #494e52;
+    background-color: #7a7f83;
   }
 
   .badge-r {
