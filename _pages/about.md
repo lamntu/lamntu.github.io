@@ -35,6 +35,23 @@ My research centres on the security and quality assurance of software systems, w
   ul.no-bullets li {
     margin-bottom: 0.8em;
   }
+
+  .badge {
+    color: white;
+    padding: 0px 6px;
+    text-align: center;
+    border-radius: 0.5em;
+  }
+
+  .badge-l {
+    border-radius: 0.5em 0em 0em 0.5em;
+    padding-right: 4px;
+    background-color: #494e52;
+  }
+
+  .badge-r {
+    border-radius: 0em 0.5em 0.5em 0em;
+  }
 </style>
 
 
@@ -60,9 +77,16 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers**<br>
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
-*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025 | Conference Rank: CORE A*<br>
+*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025 <span class="badge" style="background-color: #FF9800;">Conference (Oral)</span>
+<span class="badge badge-l">Rank</span>
+<span class="badge badge-r" style="background-color: #8BC34A;">A*</span>
+<span class="badge badge-l">DOI</span>
+<span class="badge badge-r" style="background-color: #00BCD4;">10.1145/3729376</span>
+<!-- 
+| Conference Rank: CORE A*<br>
 <button class="publ-action" onclick="window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
-<button class="publ-action" onclick="window.open('https://arxiv.org/abs/2410.22663','_blank')">arXiv</button>
+<button class="publ-action" onclick="window.open('https://arxiv.org/abs/2410.22663','_blank')">arXiv</button> 
+-->
 
 
 **UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models**<br>
