@@ -10,7 +10,7 @@ redirect_from:
 I am a 2nd year Ph.D student at the Faculty of Information Technology, Monash University, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
 I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. Pham Ngoc Hung.
 
-My research centres on the security and quality assurance of software systems, with a particular emphasis on software testing and automated repair. Specifically, I interested in:
+My research centres on the security and quality assurance of software systems, with a particular emphasis on software testing and automated repair. Specifically, I am interested in:
 - Trustworthy artificial intelligence
 - Machine learning testing
 - Traditional software testing
@@ -139,7 +139,7 @@ First Prize in Student Scientific Research Competition, Vietnam National Univers
 
 Machine learning is transforming many aspects of our lives, but concerns remain about how and why models make decisions. Often, models rely on irrelevant or misleading features, leading to untrustworthy outcomes. Conventional metrics fall short in assessing whether decisions are made for the right reasons.
 
-This research focuses on developing automated methods to test and improve the trustworthiness of ML systems, eliminating the need for manual expert validation. This work aims to make machine learning more reliable, interpretable, and scalable—paving the way for safer real-world deployment.
+This research focuses on developing automated methods to test and improve the trustworthiness of machine learning systems, eliminating the need for manual expert validation. This work aims to make machine learning more reliable, interpretable, and scalable—paving the way for safer real-world deployment.
 
 ## Past Project: Testing Tools for C/C++ Projects
 
