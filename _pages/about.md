@@ -179,5 +179,5 @@ Co-supervisor<br>
 - Referee, ACM Transactions on Software Engineering and Methodology (TOSEM)
 - Referee, Automated Software Engineering Journal (ASEJ)
 
-**Other Services*
+**Other Services**
 - Organization Committee Member, VNU University of Engineering and Technology Job Fair, 2017 - 2019
