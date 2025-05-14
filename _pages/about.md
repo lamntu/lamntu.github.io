@@ -16,7 +16,7 @@ Key expertises and research interests:
     - I am especially interested in testing the trustworthiness of AI-powered tools for coding tasks, such as code generation, vulnerabilty detection, program repair, ensuring they align with SE standards by integrating software engineering practices such as program analysis and formal methods.
 - Traditional software testing
     - I also have experience in automated test data generation and code change analysis, particularly in concolic testing, static analysis, and dynamic analysis.
-    - From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with [FPT Software Ltd.](https://drive.google.com/drive/folders/1GjBFCcHex2QCTVquX7B29FTa6dyg_n-4) and [Viettel Group](https://viettel.com.vn/en/). These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.
+    - From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with [FPT Software Ltd.](https://fptsoftware.com/) and [Viettel Group](https://viettel.com.vn/en/). These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.
 
 
 Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
