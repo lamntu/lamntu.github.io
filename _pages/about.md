@@ -88,10 +88,10 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers**<br>
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
-*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025<br><span class="badge" style="background-color: #00BCD4;">Conference (Oral)</span>
-<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #00BCD4;">A*</span>
+*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025<br><span class="badge" style="background-color: #FF9800;">Conference (Oral)</span>
+<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #8BC34A;">A*</span>
 <span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1145/3729376</span>
-<span class="badge badge-l">Acceptance Rate</span><span class="badge badge-r" style="background-color: #00BCD4;">22.06%</span>
+<span class="badge badge-l">Acceptance rate</span><span class="badge badge-r" style="background-color: #FF9800;">22.06%</span>
 <!-- 
 | Conference Rank: CORE A*<br>
 <button class="publ-action" onclick="window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
@@ -108,8 +108,8 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Hoang-Viet Tran, Khoi Nguyen Le, Pham Ngoc Hung<br>
-*Information and Software Technology*, 2021<br><span class="badge" style="background-color: #00BCD4;">Journal</span>
-<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #00BCD4;">Q1</span>
+*Information and Software Technology*, 2021<br><span class="badge" style="background-color: #3f51b5;">Journal</span>
+<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #8BC34A;">Q1</span>
 <span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1016/j.infsof.2022.106821</span>
 <!-- 
 | Journal Rank: Q1<br>
@@ -117,8 +117,8 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **Automated Test Data Generation and Stubbing Method for C/C++ Embedded Projects**<br>
 <u>Lam Nguyen Tung</u>, Nguyen Vu Binh Duong, Khoi Nguyen Le, Pham Ngoc Hung<br>
-*Automated Software Engineering*, 2024<br><span class="badge" style="background-color: #00BCD4;">Journal</span>
-<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #00BCD4;">Q2</span>
+*Automated Software Engineering*, 2024<br><span class="badge" style="background-color: #3f51b5;">Journal</span>
+<span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #ff5722;">Q2</span>
 <span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1007/s10515-024-00449-6</span>
 <!-- 
 | Journal Rank: Q2<br>
