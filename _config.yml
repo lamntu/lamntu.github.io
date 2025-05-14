@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Lam's Homepage"
+title                    : "Lam @ Monash Uni"
 title_separator          : "-"
 name                     : &name "Lam Nguyen Tung"
 description              : &description "Hi! This is my homepage"
-url                      : https://lamntu.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "#-lam-header" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lamntu/lamntu.github.io"
 
