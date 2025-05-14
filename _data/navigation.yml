@@ -8,27 +8,27 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  # - title: "About"
-  #   url: /
+  - title: "News"
+    url: "#-news"
 
   - title: "Publications"
-    url: https://scholar.google.com.au/citations?user=i0vG-4UAAAAJ&hl=ens
-    # url: /publications/
+    # url: https://scholar.google.com.au/citations?user=i0vG-4UAAAAJ&hl=ens
+    url: "#-selected-publications"
 
-  # - title: "Awards"
-  #   url: /awards/
+  - title: "Awards"
+    url: "#-awards-fellowships--grants"
 
   # - title: "Talks"
   #   url: /talks/    
 
-  # - title: "Teaching"
-  #   url: /teaching/    
+  - title: "Teaching"
+    url: "#-teaching"  
     
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Services"
+    url: "#-services"
     
   - title: "CV"
     url: /files/mycv.pdf

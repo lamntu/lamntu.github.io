@@ -14,7 +14,7 @@ Key expertises and research interests:
 - **Trustworthy Artificial Intelligence & Testing**
     - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
     - I am especially interested in testing the trustworthiness of AI-powered tools for coding tasks, such as code generation, vulnerabilty detection, program repair, ensuring they align with SE standards by integrating software engineering practices such as program analysis and formal methods.
-- Traditional software testing
+- **Traditional Software Testing**
     - I also have experience in automated test data generation and code change analysis, particularly in concolic testing, static analysis, and dynamic analysis.
     - From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with [FPT Software Ltd.](https://fptsoftware.com/) and [Viettel Group](https://viettel.com.vn/en/). These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.
 
@@ -125,7 +125,7 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 Please view the full list of my publications at my [Google Scholar](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
 
-# 🏆 Awards, Fellowships, & Grants
+# 🏆 Awards, Fellowships & Grants
 
 <div class="time">2024 – 2028</div>
 Full Monash Graduate Scholarship and Monash International Tuition Scholarship for my PhD study
@@ -171,8 +171,13 @@ Co-supervisor<br>
 
 # 🤝 Services
 
-- Referee, ACM Transactions on Software Engineering and Methodology (TOSEM)
-- Referee, Automated Software Engineering Journal (ASEJ)
+**Conference**
 - Program Committee Member, The IEEE International Symposium on Software Reliability Engineering (ISSRE), 2025
 - Student Volunteer, The ACM International Conference on the Foundations of Software Engineering (FSE), 2025
+
+**Journal**
+- Referee, ACM Transactions on Software Engineering and Methodology (TOSEM)
+- Referee, Automated Software Engineering Journal (ASEJ)
+
+**Other Services*
 - Organization Committee Member, VNU University of Engineering and Technology Job Fair, 2017 - 2019
