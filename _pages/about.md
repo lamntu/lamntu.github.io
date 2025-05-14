@@ -162,7 +162,7 @@ The goal is to reduce manual effort, accelerate development, and enhance the rob
 
 <div class="time">2021 – 2024</div>
 Teaching Assistant<br>
-[INT2204, INT3110](https://uet.vnu.edu.vn/en/information-technology-honors-program/), VNU University of Engineering and Technology
+[INT2204](https://uet.vnu.edu.vn/en/information-technology-honors-program/), [INT3110](https://uet.vnu.edu.vn/en/information-technology-honors-program/), VNU University of Engineering and Technology
 
 
 <div class="time">2025 – Present</div>
