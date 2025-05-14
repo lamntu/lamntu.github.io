@@ -7,13 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd year Ph.D student at the Faculty of Information Technology, Monash University, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
-I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. [Pham Ngoc Hung](https://uet.vnu.edu.vn/~hungpn/).
+I began my Ph.D in Software Engineering (SE) at Monash University in 2024, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
+Before that, I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. [Pham Ngoc Hung](https://uet.vnu.edu.vn/~hungpn/).
 
-My research centres on the security and quality assurance of software systems, with a particular emphasis on software testing and automated repair. Specifically, I am interested in:
-- Trustworthy artificial intelligence
-- Machine learning testing
+Key expertises and research interests:
+- **Trustworthy Artificial Intelligence & Testing**
+    - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
+    - I am especially interested in testing the trustworthiness of AI-powered tools for coding tasks, such as code generation, vulnerabilty detection, program repair, ensuring they align with SE standards by integrating software engineering practices such as program analysis and formal methods.
 - Traditional software testing
+    - I also have experience in automated test data generation and code change analysis, particularly in concolic testing, static analysis, and dynamic analysis.
+    - From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with [FPT Software Ltd.](https://drive.google.com/drive/folders/1GjBFCcHex2QCTVquX7B29FTa6dyg_n-4) and [Viettel Group](https://viettel.com.vn/en/). These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.
 
 
 Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
@@ -133,7 +136,7 @@ Postgraduate Scholarship Program Grant, Vingroup
 <div class="time">2021</div>
 First Prize in Student Scientific Research Competition, Vietnam National University (VNU)
 
-# 👨‍🔬 Research Projects
+<!-- # 👨‍🔬 Research Projects
 
 ## Current Project: Trustworthiness Testing of Machine Learning-based Systems
 
@@ -152,12 +155,24 @@ By combining static and dynamic analysis, we aim to:
 - Improve test coverage and fault detection early in development
 - Streamline regression testing
 
-The goal is to reduce manual effort, accelerate development, and enhance the robustness of embedded software systems. <span class="badge" style="cursor: pointer; background-color: var(--global-link-color);" onclick="window.open('https://uet.vnu.edu.vn/en/researching-field-testing-car-control-software/','_blank')">Learn more</span>
+The goal is to reduce manual effort, accelerate development, and enhance the robustness of embedded software systems. <span class="badge" style="cursor: pointer; background-color: var(--global-link-color);" onclick="window.open('https://uet.vnu.edu.vn/en/researching-field-testing-car-control-software/','_blank')">Learn more</span> -->
 
 
 # 👨‍🏫 Teaching
 
 <div class="time">2021 – 2024</div>
 Teaching Assistant<br>
-Faculty of Information Technology, VNU University of Engineering and Technology
+[INT2204, INT3110](https://uet.vnu.edu.vn/en/information-technology-honors-program/), VNU University of Engineering and Technology
 
+
+<div class="time">2025 – Present</div>
+Co-supervisor<br>
+[FIT4701](https://handbook.monash.edu/2024/units/fit4701), Monash University
+
+# 🤝 Services
+
+- Referee, ACM Transactions on Software Engineering and Methodology (TOSEM)
+- Referee, Automated Software Engineering Journal (ASEJ)
+- Program Committee Member, The IEEE International Symposium on Software Reliability Engineering (ISSRE), 2025
+- Student Volunteer, The ACM International Conference on the Foundations of Software Engineering (FSE), 2025
+- Organization Committee Member, VNU University of Engineering and Technology Job Fair, 2017 - 2019
