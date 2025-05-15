@@ -10,12 +10,6 @@ redirect_from:
 I began my Ph.D in Software Engineering (SE) at Monash University in 2024, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
 Before that, I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. [Pham Ngoc Hung](https://uet.vnu.edu.vn/~hungpn/).
 
-<details>
-<summary>- **Trustworthy Artificial Intelligence & Testing**</summary>
-    - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
-    - I am especially interested in testing the trustworthiness of AI-powered tools for coding tasks, such as code generation, vulnerabilty detection, program repair, ensuring they align with SE standards by integrating software engineering practices such as program analysis and formal methods.
-</details>
-
 Key expertises and research interests:
 - **Trustworthy Artificial Intelligence & Testing**
     - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
@@ -23,7 +17,6 @@ Key expertises and research interests:
 - **Traditional Software Testing**
     - I also have experience in automated test data generation and code change analysis, particularly in concolic testing, static analysis, and dynamic analysis.
     - From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with [FPT Software Ltd.](https://fptsoftware.com/) and [Viettel Group](https://viettel.com.vn/en/). These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.
-
 
 Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
 
