@@ -10,6 +10,12 @@ redirect_from:
 I began my Ph.D in Software Engineering (SE) at Monash University in 2024, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
 Before that, I received both my Master's and Bachelor's degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. [Pham Ngoc Hung](https://uet.vnu.edu.vn/~hungpn/).
 
+<details>
+<summary>- **Trustworthy Artificial Intelligence & Testing**</summary>
+    - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
+    - I am especially interested in testing the trustworthiness of AI-powered tools for coding tasks, such as code generation, vulnerabilty detection, program repair, ensuring they align with SE standards by integrating software engineering practices such as program analysis and formal methods.
+</details>
+
 Key expertises and research interests:
 - **Trustworthy Artificial Intelligence & Testing**
     - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
