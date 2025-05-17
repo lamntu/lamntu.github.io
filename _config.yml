@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Lam @ Monash Uni"
+title                    : "Lam @ Monash"
 title_separator          : "-"
 name                     : &name "Lam Nguyen Tung"
 description              : &description "Hi! This is my homepage"

@@ -87,10 +87,10 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 
 **Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers**<br>
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
-*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025<br><span class="badge" style="background-color: #FF9800;">Conference (Oral)</span>
+*In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE)*, 2025 | Acceptance rate 22.06% (135/612)<br><span class="badge" style="background-color: #FF9800;">Conference (Oral)</span>
 <span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #8BC34A;">A*</span>
 <span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1145/3729376</span>
-<span class="badge badge-l">Acceptance rate</span><span class="badge badge-r" style="background-color: #FF9800;">22.06%</span>
+<!-- <span class="badge badge-l">Acceptance rate</span><span class="badge badge-r" style="background-color: #FF9800;">22.06%</span> -->
 <!-- 
 | Conference Rank: CORE A*<br>
 <button class="publ-action" onclick="window.open('https://doi.org/10.1145/3729376','_blank')">DOI:10.1145/3729376</button>
