@@ -72,7 +72,7 @@ Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
 </ul> -->
 
 <div class="time">May 19, 2025</div>
-I'm going on a trip to visit Prof. David Lo and his research group at SMU. See you in Singapore! ✈️
+I am going on a trip in August to visit Prof. David Lo and his research group at SMU. See you in Singapore! ✈️
 
 
 <div class="time">Apr 16, 2025</div>
