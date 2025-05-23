@@ -12,8 +12,8 @@ Before that, I received both my Master's and Bachelor's degrees from the Univers
 
 Key expertises and research interests:
 - **Trustworthy Artificial Intelligence & Testing**
-    - I focus on developing trustworthy AI-based software systems and testing their trustworthiness throughout the lifecycle.
-    - I am especially interested in testing the trustworthiness of AI-powered tools for coding tasks, such as code generation, vulnerabilty detection, program repair, ensuring they align with SE standards by integrating software engineering practices such as program analysis and formal methods.
+    - I focus on developing trustworthy AI-based software systems and testing their trustworthiness.
+    - I am especially interested in testing the trustworthiness of AI-based tools for coding tasks, ensuring they provide explainable outputs aligning with SE standards.
 - **Traditional Software Testing**
     - I also have experience in automated test data generation and code change analysis, particularly in concolic testing, static analysis, and dynamic analysis.
     - From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with [FPT Software Ltd.](https://fptsoftware.com/) and [Viettel Group](https://viettel.com.vn/en/). These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.
@@ -72,7 +72,7 @@ Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
 </ul> -->
 
 <div class="time">May 19, 2025</div>
-I am thrilled to be invited by Prof. [David Lo](http://www.mysmu.edu/faculty/davidlo/) to visit him and his research group at [SMU](https://www.smu.edu.sg/) in August. See you in Singapore! ✈️
+I am thrilled to be invited by Prof. [David Lo](http://www.mysmu.edu/faculty/davidlo/) to visit him and his research group at [Singapore Management University](https://www.smu.edu.sg/) in August. See you in Singapore! ✈️
 
 
 <div class="time">Apr 16, 2025</div>
@@ -130,6 +130,10 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 Please view the full list of my publications at my [Google Scholar](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
 
 # 🏆 Awards, Fellowships & Grants
+
+
+<div class="time">Aug, 2024 – Feb, 2025</div>
+Visiting Scholarship at SOAR lab, Singapore Management University, Singapore
 
 <div class="time">2024 – 2028</div>
 Full Monash Graduate Scholarship and Monash International Tuition Scholarship for my PhD study
