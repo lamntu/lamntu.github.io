@@ -5,6 +5,9 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 I began my Ph.D in Software Engineering (SE) at Monash University in 2024, under the supervision of Prof. [Aldeida Aleti](https://research.monash.edu/en/persons/aldeida-aleti), Dr. [Xiaoning Du](https://xiaoningdu.github.io/), and Dr. [Neelofar](https://www.rmit.edu.au/profiles/n/neelofar-neelofar). 
