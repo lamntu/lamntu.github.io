@@ -53,8 +53,6 @@ Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
   }
 </style>
 
-<div>
-
 <div class="time">May 19, 2025</div>
 I am thrilled to be invited by Prof. [David Lo](http://www.mysmu.edu/faculty/davidlo/) to visit him and his research group at [Singapore Management University](https://www.smu.edu.sg/) in August. See you in Singapore! ✈️
 
@@ -70,8 +68,6 @@ Our paper "[Automated Trustworthiness Oracle Generation for Machine Learning Tex
 
 <div class="time">Mar 19, 2025</div>
 Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models](https://arxiv.org/abs/2503.14852)" is online at arXiv! 🤩
-
-</div>
 
 # 📃 Selected Publications
 
