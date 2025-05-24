@@ -53,6 +53,8 @@ Take a look at my [Curriculum Vitae](/files/mycv.pdf) for more details.
   }
 </style>
 
+<div>
+
 <div class="time">May 19, 2025</div>
 I am thrilled to be invited by Prof. [David Lo](http://www.mysmu.edu/faculty/davidlo/) to visit him and his research group at [Singapore Management University](https://www.smu.edu.sg/) in August. See you in Singapore! ✈️
 
@@ -69,7 +71,11 @@ Our paper "[Automated Trustworthiness Oracle Generation for Machine Learning Tex
 <div class="time">Mar 19, 2025</div>
 Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models](https://arxiv.org/abs/2503.14852)" is online at arXiv! 🤩
 
+</div>
+
 # 📃 Selected Publications
+
+Please view the full list of my publications at my [Google Scholar](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
 
 **Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers**<br>
 <u>Lam Nguyen Tung</u>, Steven Cho, Xiaoning Du, Neelofar Neelofar, Valerio Terragni, Stefano Ruberto, Aldeida Aleti<br>
@@ -95,7 +101,6 @@ Our paper "[UntrustVul: An Automated Approach for Identifying Untrustworthy Aler
 <span class="badge badge-l">Rank</span><span class="badge badge-r" style="background-color: #ff5722;">Q2</span>
 <span class="badge badge-l">DOI</span><span class="badge badge-r" style="background-color: #00BCD4;">10.1007/s10515-024-00449-6</span>
 
-Please view the full list of my publications at my [Google Scholar](https://scholar.google.com/citations?user=i0vG-4UAAAAJ).
 
 # 🏆 Awards, Fellowships & Grants
 
