@@ -136,15 +136,15 @@ function createPublicationElement(publication) {
   const pubItem = document.createElement('div');
   pubItem.className = 'publication-item';
   
-  // Create thumbnail
-  const thumbnail = document.createElement('div');
-  thumbnail.className = 'pub-thumbnail';
-  thumbnail.onclick = () => openModal(publication.thumbnail);
+  // // Create thumbnail
+  // const thumbnail = document.createElement('div');
+  // thumbnail.className = 'pub-thumbnail';
+  // thumbnail.onclick = () => openModal(publication.thumbnail);
   
-  const thumbnailImg = document.createElement('img');
-  thumbnailImg.src = publication.thumbnail;
-  thumbnailImg.alt = `${publication.title} thumbnail`;
-  thumbnail.appendChild(thumbnailImg);
+  // const thumbnailImg = document.createElement('img');
+  // thumbnailImg.src = publication.thumbnail;
+  // thumbnailImg.alt = `${publication.title} thumbnail`;
+  // thumbnail.appendChild(thumbnailImg);
   
   // Create content container
   const content = document.createElement('div');
