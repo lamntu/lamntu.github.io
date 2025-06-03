@@ -82,7 +82,7 @@ nav a, .social-links-header a {
   color: var(--text-secondary);
   transition: all var(--transition-time) ease;
   font-weight: 400;
-  padding: 0.3rem 0.6rem;
+  padding: 0.3rem 0rem;
   border-radius: 4px;
   /*background-color: var(--shadow-color);*/
 }
@@ -90,13 +90,14 @@ nav a, .social-links-header a {
 nav a:hover, .social-links-header a:hover {
   color: var(--accent-color);
   background-color: rgba(74, 116, 185, 0.08);
+  padding: 0.3rem 0.6rem;
   transform: translateX(var(--animation-offset));
 }
 
 .social-links-header {
   display: flex;
-  gap: 0.5rem;
-  margin: 1.2rem 0;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .social-links-header a i {
@@ -505,6 +506,10 @@ main > nav {
     flex-wrap: wrap;
     justify-content: center;
     gap: 0;
+  }
+
+  .social-links-header a {
+    padding: 0.3rem 0.6rem;
   }
 
   /* Disable right-moving hover animations on mobile */
