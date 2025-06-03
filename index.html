@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic Homepage">
+    <meta name="keywords" content="Computer Science, PhD Student, Research, Machine Learning, Robotics">
+    <meta name="author" content="Anonymous">
+    <meta property="og:title" content="Academic Homepage - PhD Student">
+    <meta property="og:description" content="Research in computer science and related fields.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@anonymous">
+    <title>Lam @ Monash</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 70 100%22><text y=%22.9em%22 font-size=%2290%22>🧔🏻‍♂️</text></svg>">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+    <audio id="name-pronunciation">
+      <source src="audio/pronunciation.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+
+    <header>
+        <div class="header-content">
+            <h1>Lam Nguyen Tung</h1>
+            <div class="name-item" onclick="playAudio()">/ Lâm / <i class="fas fa-volume-up"></i></div>
+            <p>PhD Student • Software Engineering @ Monash</p>
+            <div class="social-links-header">
+                <a href="https://scholar.google.com/citations?user=i0vG-4UAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i>Scholar</a>
+                <a href="https://github.com/lamntu"><i class="fab fa-github"></i>GitHub</a>
+                <a href="https://www.linkedin.com/in/tung-lam-nguyen-659209265/"><i class="fab fa-linkedin-in"></i>Linkedin</a>
+                <a href="https://orcid.org/0009-0000-3038-8403"><i class="fab fa-orcid"></i>ORCID</a>
+                <a href="files/mycv.pdf"><i class="fas fa-file-pdf"></i>My CV</a>
+                <a href="mailto:lam.nguyentung@monash.edu"><i class="fas fa-envelope"></i>Email</a>
+            </div>
+        </div>
+        <div class="header-image">
+            <img src="images/my-photo.png" alt="Profile Photo">
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <p>I began my Ph.D in Software Engineering (SE) at Monash University in 2024, under the supervision of Prof. <a href="https://research.monash.edu/en/persons/aldeida-aleti">Aldeida Aleti</a>, Dr. <a href="https://xiaoningdu.github.io/">Xiaoning Du</a>, and Dr. <a href="https://www.rmit.edu.au/profiles/n/neelofar-neelofar">Neelofar</a>. Before that, I received both my Master’s and Bachelor’s degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. <a href="https://uet.vnu.edu.vn/~hungpn/">Pham Ngoc Hung</a>.</p>
+        </section>
+
+        <section id="research">
+            <h2>Research</h2>
+            <!-- <p>Key expertises and research interests:</p> -->
+            <ul>
+                <li>
+                    <strong>Trustworthy Artificial Intelligence &amp; Testing</strong>
+                    <ul>
+                        <li><p>I focus on developing trustworthy AI-based software systems and testing their trustworthiness.</p></li>
+                        <li><p>I am especially interested in testing the trustworthiness of AI-based tools for coding tasks, ensuring they provide explainable outputs aligning with SE standards.</p></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Traditional Software Testing</strong>
+                    <ul>
+                        <li><p>I also have experience in automated test data generation and code change analysis, particularly in concolic testing, static analysis, and dynamic analysis.</p></li>
+                        <li><p>From 2018 to 2024, I led a team of 8 – 10 undergraduate students in collaboration with <a href="https://fptsoftware.com/">FPT Software Ltd.</a> and <a href="https://viettel.com.vn/en/">Viettel Group</a>. These projects aim to automate unit testing for C/C++ embedded software, detect the logical impact of code changes on system behaviour, and streamline regression testing.</p></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <div class="news-container">
+                <ul id="news-list" class="news-list">
+                    <li>[MM/YYYY]: [News Item 1]</li>
+                    <li>[MM/YYYY]: [News Item 2]</li>
+                    <li>[MM/YYYY]: [News Item 3]</li>
+                    <li>[MM/YYYY]: [News Item 4]</li>
+                    <li>[MM/YYYY]: [News Item 5]</li>
+                    <li>[MM/YYYY]: [News Item 6]</li>
+                    <li>[MM/YYYY]: [News Item 7]</li>
+                    <li>[MM/YYYY]: [News Item 8]</li>
+                    <li>[MM/YYYY]: [News Item 9]</li>
+                    <li>[MM/YYYY]: [News Item 10]</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="publications-header">
+                <h2 id="toggle-header">Selected Publications</h2>
+                <button onclick="window.open('https://scholar.google.com/citations?user=i0vG-4UAAAAJ&hl=en','_blank')" id="toggle-publications" class="toggle-publications">Show All</button>
+            </div>
+            <div id="publications-container">
+                <!-- Publications will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="awards">
+            <h2>Awards</h2>
+            <div class="award-item">
+                <span class="award-year">2025 – 2026</span>
+                <div class="award-desc">Visiting Scholarship at SOAR lab, Singapore Management University, Singapore</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">2024 – 2028</span>
+                <div class="award-desc">Full Monash Graduate Scholarship and Monash International Tuition Scholarship for my PhD study</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">2021 – 2023</span>
+                <div class="award-desc">Postgraduate Scholarship Program Grant, Vingroup</div>
+            </div>
+            <div class="award-item">
+                <span class="award-year">2021</span>
+                <div class="award-desc">First Prize in Student Scientific Research Competition, Vietnam National University (VNU)</div>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <div class="service-category">
+                <div class="service-title">Reviewer</div>
+                <ul>
+                    <li>The IEEE International Symposium on Software Reliability Engineering (ISSRE), 2025</li>
+                    <li>ACM Transactions on Software Engineering and Methodology (TOSEM)</li>
+                    <li>Automated Software Engineering Journal (ASEJ)</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <div class="service-title">Teaching Assistant</div>
+                <ul>
+                    <li>FIT4701, Monash University</li>
+                    <li>INT2204, INT3110, VNU University of Engineering and Technology</li>
+                </ul>
+            </div>
+
+            <div class="service-category">
+                <div class="service-title">Volunteer</div>
+                <ul>
+                    <li>Student Volunteer, The ACM International Conference on the Foundations of Software Engineering (FSE), 2025</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- <section id="miscellaneous">
+            <h2>Miscellaneous</h2>
+            <div class="misc-item">
+                <p>[Optional] Share your hobbies and interests here.</p>
+            </div>
+        </section> -->
+    </main>
+
+
+
+    <footer>
+        <p>© 2025 Lam Nguyen Tung. Last updated: Jun 2025.</p>
+    </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

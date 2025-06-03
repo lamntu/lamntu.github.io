@@ -1,0 +1,54 @@
+{
+  "publications": [
+    {
+      "title": "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers",
+      "authors": ["Lam Nguyen Tung", "Steven Cho", "Xiaoning Du", "Neelofar Neelofar", "Valerio Terragni", "Stefano Ruberto", "Aldeida Aleti"],
+      "venue": "In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE 2025)",
+      "thumbnail": "images/thumbs/1.jpg",
+      "selected": 1,
+      "award": "Acceptance rate 22.06% (135/612)",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2410.22663"
+      }
+    },
+    {
+      "title": "UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models",
+      "authors": [
+        "Lam Nguyen Tung", "Xiaoning Du", "Neelofar Neelofar", "Aldeida Aleti"
+      ],
+      "venue": "Preprint (2025)",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2503.14852"
+      }
+    },
+    {
+      "title": "An Automated Test Data Generation Method for Void Pointers and Function Pointers in C/C++ Libraries and Embedded Projects",
+      "authors": [
+        "Lam Nguyen Tung", "Hoang-Viet Tran", "Khoi Nguyen Le", "Pham Ngoc Hung"
+      ],
+      "venue": "Information and Software Technology (2021)",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://www.sciencedirect.com/science/article/pii/S0950584922000027"
+      }
+    },
+    {
+      "title": "Automated Test Data Generation and Stubbing Method for C/C++ Embedded Projects",
+      "authors": [
+        "Lam Nguyen Tung", "Nguyen Vu Binh Duong", "Khoi Nguyen Le", "Pham Ngoc Hung"
+      ],
+      "venue": "Automated Software Engineering (2024)",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://dl.acm.org/doi/abs/10.1007/s10515-024-00449-6"
+      }
+    }
+  ]
+}
