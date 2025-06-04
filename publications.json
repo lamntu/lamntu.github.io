@@ -3,7 +3,7 @@
     {
       "title": "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers",
       "authors": ["Lam Nguyen Tung", "Steven Cho", "Xiaoning Du", "Neelofar Neelofar", "Valerio Terragni", "Stefano Ruberto", "Aldeida Aleti"],
-      "venue": "In the ACM International Conference on the Foundations of Software Engineering (ESEC/FSE 2025)",
+      "venue": "In the ACM International Conference on the Foundations of Software Engineering (FSE), 2025",
       "thumbnail": "",
       "selected": 1,
       "award": "Acceptance rate 22.06% (135/612)",
@@ -16,7 +16,7 @@
       "authors": [
         "Lam Nguyen Tung", "Xiaoning Du", "Neelofar Neelofar", "Aldeida Aleti"
       ],
-      "venue": "Preprint (2025)",
+      "venue": "Preprint, 2025",
       "thumbnail": "images/thumbs/2.jpg",
       "selected": 1,
       "award": "",
@@ -29,7 +29,7 @@
       "authors": [
         "Lam Nguyen Tung", "Hoang-Viet Tran", "Khoi Nguyen Le", "Pham Ngoc Hung"
       ],
-      "venue": "Information and Software Technology (2021)",
+      "venue": "Information and Software Technology, 2021",
       "thumbnail": "",
       "selected": 1,
       "award": "",
@@ -42,7 +42,7 @@
       "authors": [
         "Lam Nguyen Tung", "Nguyen Vu Binh Duong", "Khoi Nguyen Le", "Pham Ngoc Hung"
       ],
-      "venue": "Automated Software Engineering (2024)",
+      "venue": "Automated Software Engineering, 2024",
       "thumbnail": "images/thumbs/2.jpg",
       "selected": 1,
       "award": "",
