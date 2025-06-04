@@ -35,8 +35,8 @@ header {
 }
 
 .header-image img {
-  width: 136px;
-  height: 136px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
   border-radius: 50%;
   /*border: 2px solid var(--border-color);*/
@@ -536,10 +536,5 @@ main > nav {
   .service-category:hover, .misc-item:hover, .news-list li:hover,
   nav a:hover, .social-links-header a:hover, .pub-links a:hover {
     transform: none !important;
-  }
-
-  .header-image img {
-    width: 130px;
-    height: 130px;
   }
 }
