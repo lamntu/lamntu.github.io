@@ -203,7 +203,7 @@ function createPublicationElement(publication) {
     if (publication.links.code) {
       const codeLink = document.createElement('a');
       codeLink.href = publication.links.code;
-      codeLink.textContent = '[Code]';
+      codeLink.innerHTML = '<i class="fas fa-code"></i>Code';
       links.appendChild(codeLink);
     }
     

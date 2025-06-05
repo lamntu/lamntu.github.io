@@ -3,7 +3,7 @@
   --text-color: #2d3748;
   --text-secondary: #4a5568;
   --accent-color: #0078ff;
-  --accent-hover: #a64ac9;
+  --accent-hover: #fca604;
   --border-color: #e2e8f0;
   --shadow-color: rgba(0,0,0,0.05);
   --animation-offset: 3px;
@@ -248,7 +248,7 @@ section {
 
 .pub-award {
   font-size: 0.85rem;
-  font-weight: 500;
+  /*font-weight: 500;*/
   color: #fff;
   background-color: var(--accent-color);
   padding: 0.15rem 0.5rem;
@@ -296,7 +296,7 @@ section {
 /* Awards section */
 .award-item {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   margin-bottom: 0.9rem;
 }
 
@@ -527,9 +527,9 @@ main > nav {
     padding: 0.3rem 0.6rem;
   }
 
-  .social-links-header a span {
+  /*.social-links-header a span {
     display: inline;
-  }
+  }*/
 
   /* Disable right-moving hover animations on mobile */
   .publication-item:hover, .award-item:hover, .name-item:hover,

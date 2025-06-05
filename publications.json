@@ -8,7 +8,8 @@
       "selected": 1,
       "award": "Acceptance rate 22.06% (135/612)",
       "links": {
-        "pdf": "https://arxiv.org/abs/2410.22663"
+        "pdf": "https://arxiv.org/abs/2410.22663",
+        "code": "https://doi.org/10.5281/zenodo.13751579"
       }
     },
     {
@@ -21,7 +22,8 @@
       "selected": 1,
       "award": "",
       "links": {
-        "pdf": "https://arxiv.org/abs/2503.14852"
+        "pdf": "https://arxiv.org/abs/2503.14852",
+        "code": "https://doi.org/10.5281/zenodo.15031367"
       }
     },
     {
