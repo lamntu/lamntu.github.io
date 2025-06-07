@@ -96,7 +96,7 @@ nav a:hover, .social-links-header a:hover {
 
 .social-links-header {
   display: flex;
-  gap: 1rem;
+  gap: 1.3rem;
   margin-bottom: 1.2rem;
 }
 
@@ -105,7 +105,7 @@ nav a:hover, .social-links-header a:hover {
 }
 
 .social-links-header a span {
-  display: none;
+  /*display: none;*/
 }
 
 .social-links-header a:hover span {
@@ -117,22 +117,29 @@ nav a:hover, .social-links-header a:hover {
 }
 
 /* Unified animation for elements (not sections) */
-.publication-item, .award-item, .service-category, .misc-item, .name-item, .news-list li {
+.publication-item, .award-item, .service-category, .misc-item, .name-audio, .news-list li {
   transition: transform var(--transition-time) ease;
 }
 
-.publication-item:hover, .award-item:hover, .name-item:hover,
+.publication-item:hover, .award-item:hover, .name-audio:hover,
 .service-category:hover, .misc-item:hover, .news-list li:hover {
   transform: translateX(var(--animation-offset));
 }
 
-.name-item:hover {
+.name-audio:hover {
   color: var(--accent-color);
+  cursor: pointer;
 }
 
-.name-item {
+.name-audio {
   color: var(--text-secondary);
   font-size: 0.9rem;
+}
+
+.name-container {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
 }
 
 /* Section animation */
@@ -527,12 +534,16 @@ main > nav {
     padding: 0.3rem 0.6rem;
   }
 
-  /*.social-links-header a span {
-    display: inline;
-  }*/
+  .social-links-header a span {
+    display: none;
+  }
+
+  .name-container {
+    display: block;
+  }
 
   /* Disable right-moving hover animations on mobile */
-  .publication-item:hover, .award-item:hover, .name-item:hover,
+  .publication-item:hover, .award-item:hover, .name-audio:hover,
   .service-category:hover, .misc-item:hover, .news-list li:hover,
   nav a:hover, .social-links-header a:hover, .pub-links a:hover {
     transform: none !important;
