@@ -508,6 +508,27 @@ main > nav {
   color: #666;
 }
 
+.slide-wrapper {
+  display: block;
+  opacity: 1;
+  height: 100%; 
+  width: 100%; 
+  object-fit: contain;
+  /*transition: all 1s ease-out;*/
+  transition: all var(--transition-time);
+  transition-behavior: allow-discrete;
+  visibility: visible;
+  margin-top: 1rem;
+}
+
+.hide {
+  visibility: hidden;
+  /*transition: all 1s ease-out;*/
+  transition: all var(--transition-time);
+  transition-behavior: allow-discrete;
+  opacity: 0;  
+  display: none;
+}
 
 /* Responsive design fixes */
 @media (max-width: 768px) {

@@ -192,7 +192,8 @@ function createPublicationElement(publication) {
   if (publication.links) {
     const links = document.createElement('div');
     links.className = 'pub-links';
-    
+    content.appendChild(links);
+
     if (publication.links.pdf) {
       const pdfLink = document.createElement('a');
       pdfLink.href = publication.links.pdf;
@@ -214,15 +215,30 @@ function createPublicationElement(publication) {
       links.appendChild(projectLink);
     }
 
+    if (publication.links.presentation) {
+      const slideShow = document.createElement('a');
+      slideShow.href = "javascript:void(0);";
+      slideShow.innerHTML = '<i class="fas fa-chalkboard-teacher"></i>Slides';
+      links.appendChild(slideShow);
+
+      const slideWrapper = document.createElement('div');
+      slideWrapper.className = "slide-wrapper hide"
+      slideWrapper.innerHTML = '<iframe src="' + publication.links.presentation + '/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="486" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'
+      
+      slideShow.addEventListener('click', () => {
+        slideWrapper.classList.toggle('hide');
+      })
+
+      content.appendChild(slideWrapper)
+    }
+
     // Add award if it exists
     if (publication.award && publication.award.length > 0) {
       const award = document.createElement('div');
       award.className = 'pub-award';
       award.textContent = publication.award;
       links.appendChild(award);
-    }
-    
-    content.appendChild(links);
+    }    
   }
   
   // Assemble the publication item
