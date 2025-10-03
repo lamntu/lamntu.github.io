@@ -3,7 +3,7 @@
   --text-color: #2d3748;
   --text-secondary: #4a5568;
   --accent-color: #0078ff;
-  --accent-hover: #fca604;
+  --accent-hover: #0019ff;
   --border-color: #e2e8f0;
   --shadow-color: rgba(0,0,0,0.05);
   --animation-offset: 3px;
@@ -550,7 +550,7 @@ main > nav {
   margin: 0 auto;
   /*transition: transform var(--transition-time) ease, box-shadow var(--transition-time) ease;*/
   filter: grayscale(1);
-  max-width: 264px;
+  max-width: 250px;
 }
 
 .research-item:hover img {
