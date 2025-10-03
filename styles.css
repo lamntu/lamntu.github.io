@@ -531,6 +531,40 @@ main > nav {
   display: none;
 }
 
+.research-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* spacing between items */
+}
+
+.research-item {
+  flex: 1 1 calc(33% - 10px); /* 2 columns */
+  /*padding: 0 0.6rem 0.6rem 0.6rem;*/
+}
+
+.research-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
+  transition: transform var(--transition-time) ease, box-shadow var(--transition-time) ease;
+  filter: grayscale(1);
+}
+
+.research-item:hover img:hover {
+  filter: grayscale(0);
+  transform: scale(1.02);
+}
+
+.research-item-title {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+  /*margin-bottom: 0.3rem;*/
+}
+
 /* Responsive design fixes */
 @media (max-width: 768px) {
   /* Make header stack vertically on mobile */
@@ -539,6 +573,11 @@ main > nav {
     align-items: center;
     text-align: center;
     /*gap: 1rem;*/
+  }
+
+
+  .research-item {
+    flex: 1 1 100%; /* full width */
   }
 
   .award-year {
@@ -554,6 +593,7 @@ main > nav {
 
   .social-links-header a {
     padding: 0.3rem 0.6rem;
+    font-size: 1.25rem;
   }
 
   .social-links-header a span {
