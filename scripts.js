@@ -25,6 +25,17 @@ document.addEventListener('DOMContentLoaded', function() {
   btnAudio = document.getElementById("name-pronunciation"); 
 });
 
+document.body.addEventListener('click', function(e) {
+    var target = e.target;
+    do {
+        if (target.nodeName.toUpperCase() === 'A' && target.href && target.href.startsWith("http") && !target.href.endsWith("#")) {
+            console.log("REF", target.href);
+            target.target = '_blank';
+            break;
+        }
+    } while (target = target.parentElement);
+}, true);
+
 function playAudio() { 
   btnAudio.play(); 
 } 
@@ -223,7 +234,7 @@ function createPublicationElement(publication) {
 
       const slideWrapper = document.createElement('div');
       slideWrapper.className = "slide-wrapper hide"
-      slideWrapper.innerHTML = '<iframe src="' + publication.links.presentation + '/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="486" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'
+      slideWrapper.innerHTML = '<iframe src="' + publication.links.presentation + '/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'
       
       slideShow.addEventListener('click', () => {
         slideWrapper.classList.toggle('hide');

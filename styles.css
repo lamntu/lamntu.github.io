@@ -3,7 +3,7 @@
   --text-color: #2d3748;
   --text-secondary: #4a5568;
   --accent-color: #0078ff;
-  --accent-hover: #0019ff;
+  /*--accent-hover: #0019ff;*/
   --border-color: #e2e8f0;
   --shadow-color: rgba(0,0,0,0.05);
   --animation-offset: 3px;
@@ -388,16 +388,23 @@ footer {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: color var(--transition-time) ease;
+  /*transition: color var(--transition-time) ease;*/
   font-weight: 400;
+
+  background: linear-gradient(currentColor 0 0) 
+    bottom left/
+    var(--underline-width, 0%) 0.1rem
+    no-repeat;
+  transition: background-size var(--transition-time);
 }
 
 a:hover {
-  color: var(--accent-hover);
+  /*color: var(--accent-hover);*/
 }
 
 p a:hover, .award-desc a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  --underline-width: 100%;
 }
 
 em {
@@ -512,7 +519,7 @@ main > nav {
 .slide-wrapper {
   display: block;
   opacity: 1;
-  height: 100%; 
+  height: 0; 
   width: 100%; 
   object-fit: contain;
   /*transition: all 1s ease-out;*/
@@ -520,6 +527,17 @@ main > nav {
   transition-behavior: allow-discrete;
   visibility: visible;
   margin-top: 1rem;
+  padding-bottom: 56.25%; /* The height of the item will now be 56.25% of the width. */
+  position: relative;
+}
+
+/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
+.slide-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
 }
 
 .hide {
