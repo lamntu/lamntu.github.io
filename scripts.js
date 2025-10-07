@@ -29,7 +29,6 @@ document.body.addEventListener('click', function(e) {
     var target = e.target;
     do {
         if (target.nodeName.toUpperCase() === 'A' && target.href && target.href.startsWith("http") && !target.href.endsWith("#")) {
-            console.log("REF", target.href);
             target.target = '_blank';
             break;
         }
@@ -234,13 +233,17 @@ function createPublicationElement(publication) {
 
       const slideWrapper = document.createElement('div');
       slideWrapper.className = "slide-wrapper hide"
-      slideWrapper.innerHTML = '<iframe src="' + publication.links.presentation + '/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'
       
       slideShow.addEventListener('click', () => {
         slideWrapper.classList.toggle('hide');
+        if (slideWrapper.classList.contains('hide')) {
+          slideWrapper.innerHTML = ''
+        } else {
+          slideWrapper.innerHTML = '<iframe src="' + publication.links.presentation + '/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>'  
+        }
       })
 
-      content.appendChild(slideWrapper)
+      content.appendChild(slideWrapper);
     }
 
     // Add award if it exists
@@ -262,12 +265,16 @@ function createPublicationElement(publication) {
 // Modal functionality for viewing original images
 function openModal(imageSrc) {
   const modal = document.getElementById('imageModal');
-  const modalImg = document.getElementById('modalImage');
+  const modalContent = document.getElementById('modalContent');
+  modalContent.innerHTML = '';
   modal.style.display = "block";
   setTimeout(() => {
     modal.classList.add('show');
   }, 10);
+  const modalImg = document.createElement('img');
+  modalImg.className = 'modal-content'
   modalImg.src = imageSrc;
+  modalContent.appendChild(modalImg);
 }
 
 function closeModal() {

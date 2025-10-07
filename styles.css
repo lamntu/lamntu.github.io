@@ -178,6 +178,9 @@ section {
   cursor: pointer;
   font-weight: 500;
   transition: all var(--transition-time) ease;
+  position: relative;
+  float: right;
+  bottom: 0;
 }
 
 .toggle-publications:hover {
@@ -430,12 +433,12 @@ strong {
   display: none;
   position: fixed;
   z-index: 1000;
-  padding-top: 100px;
+  padding-top: 88px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow-y: auto !important;
   background-color: rgba(0,0,0,0.85);
   transition: opacity var(--transition-time);
   opacity: 0;
@@ -448,8 +451,8 @@ strong {
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 85%;
-  max-height: 85%;
+  max-width: 75%;
+  max-height: 75%;
   border-radius: 4px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   animation: zoom var(--transition-time) ease-out;
@@ -567,7 +570,7 @@ main > nav {
   object-fit: cover;
   margin: 0 auto;
   /*transition: transform var(--transition-time) ease, box-shadow var(--transition-time) ease;*/
-  filter: grayscale(1);
+  filter: grayscale(0.9);
   max-width: 250px;
 }
 
