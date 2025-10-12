@@ -35,6 +35,7 @@ header {
 }
 
 .header-image img {
+  cursor: pointer;
   width: 130px;
   height: 130px;
   object-fit: cover;
@@ -433,7 +434,7 @@ strong {
   display: none;
   position: fixed;
   z-index: 1000;
-  padding-top: 88px;
+  /*padding-top: 88px;*/
   left: 0;
   top: 0;
   width: 100%;
@@ -442,6 +443,7 @@ strong {
   background-color: rgba(0,0,0,0.85);
   transition: opacity var(--transition-time);
   opacity: 0;
+  place-items: center;
 }
 
 .modal.show {
@@ -451,8 +453,8 @@ strong {
 .modal-content {
   margin: auto;
   display: block;
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 85%;
+  max-height: 85%;
   border-radius: 4px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.3);
   animation: zoom var(--transition-time) ease-out;

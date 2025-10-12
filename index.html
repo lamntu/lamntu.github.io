@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="header-image">
-            <img onContextMenu="return false;" draggable="false" src="images/my-photo.png" alt="Profile Photo">
+            <img onclick="openModal('/images/my-photo.png')" onContextMenu="return false;" draggable="false" src="images/my-photo.png" alt="Profile Photo">
         </div>
     </header>
 
@@ -174,7 +174,7 @@
 
     <div id="imageModal" class="modal">
         <span class="modal-close" onclick="closeModal()">&times;</span>
-        <div id="modalContent">
+        <div id="modalContent" style="height: 100%; display: flex;">
         </div>
     </div>
     <script src="scripts.js"></script>
