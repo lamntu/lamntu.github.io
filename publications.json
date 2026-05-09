@@ -1,6 +1,20 @@
 {
   "publications": [
     {
+      "title": "UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models",
+      "authors": [
+        "Lam Nguyen Tung", "Xiaoning Du", "Neelofar Neelofar", "Aldeida Aleti"
+      ],
+      "venue": "IEEE Transactions on Software Engineering, 2026",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2503.14852",
+        "code": "https://doi.org/10.5281/zenodo.15031367"
+      }
+    },
+    {
       "title": "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers",
       "authors": ["Lam Nguyen Tung", "Steven Cho", "Xiaoning Du", "Neelofar Neelofar", "Valerio Terragni", "Stefano Ruberto", "Aldeida Aleti"],
       "venue": "In the ACM International Conference on the Foundations of Software Engineering (FSE), 2025",
@@ -11,20 +25,6 @@
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3729376",
         "code": "https://doi.org/10.5281/zenodo.13751579",
         "presentation": "https://docs.google.com/presentation/d/e/2PACX-1vRR90kmSQoBFyEOoPGcBXBCYDiAL5MXrery-nX3UuZvoCs0DMfqUoXyfYupbQuqaA"
-      }
-    },
-    {
-      "title": "UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models",
-      "authors": [
-        "Lam Nguyen Tung", "Xiaoning Du", "Neelofar Neelofar", "Aldeida Aleti"
-      ],
-      "venue": "Under Review, IEEE Transactions on Software Engineering",
-      "thumbnail": "images/thumbs/2.jpg",
-      "selected": 1,
-      "award": "",
-      "links": {
-        "pdf": "https://arxiv.org/abs/2503.14852",
-        "code": "https://doi.org/10.5281/zenodo.15031367"
       }
     },
     {
