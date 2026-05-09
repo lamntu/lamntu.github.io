@@ -15,6 +15,18 @@
       }
     },
     {
+      "title": "When LLMs Generate Correct Security Patches for the Wrong Reasons: Benchmark and Detection",
+      "authors": [
+        "Lam Nguyen Tung", "Aldeida Aleti", "Xiaoning Du", "Neelofar Neelofar", "Matias Martinez", "Justyna Petke", "Federica Sarro"
+      ],
+      "venue": "Under Review, IEEE Transactions on Software Engineering",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+      }
+    },
+    {
       "title": "Automated Trustworthiness Oracle Generation for Machine Learning Text Classifiers",
       "authors": ["Lam Nguyen Tung", "Steven Cho", "Xiaoning Du", "Neelofar Neelofar", "Valerio Terragni", "Stefano Ruberto", "Aldeida Aleti"],
       "venue": "In the ACM International Conference on the Foundations of Software Engineering (FSE), 2025",
