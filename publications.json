@@ -1,6 +1,19 @@
 {
   "publications": [
     {
+      "title": "Automated Explanation-Based Testing and Improvement of Trustworthiness in AI-Based Systems",
+      "authors": [
+        "Lam Nguyen Tung"
+      ],
+      "venue": "In the Doctoral Symposium track of the 41st IEEE/ACM International Conference on Automated Software Engineering (ASE), 2026",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        
+      }
+    },
+    {
       "title": "UntrustVul: An Automated Approach for Identifying Untrustworthy Alerts in Vulnerability Detection Models",
       "authors": [
         "Lam Nguyen Tung", "Xiaoning Du", "Neelofar Neelofar", "Aldeida Aleti"
@@ -8,7 +21,7 @@
       "venue": "IEEE Transactions on Software Engineering, 2026",
       "thumbnail": "images/thumbs/2.jpg",
       "selected": 1,
-      "award": "",
+      "award": "Accepted to be presented at ASE 2026",
       "links": {
         "pdf": "https://ieeexplore.ieee.org/document/11522575",
         "code": "https://doi.org/10.5281/zenodo.15031367"
