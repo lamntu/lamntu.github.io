@@ -14,11 +14,16 @@
     <meta name="twitter:creator" content="@anonymous">
     <title>Lam @ Monash</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧔🏻‍♂️</text></svg>">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body id="top">
+    <a class="skip-link" href="#about">Skip to content</a>
+    <nav class="site-nav" aria-label="Main navigation">
+        <a class="wordmark" href="#top">LNT<span>.</span></a>
+        <div class="nav-links"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="mailto:lam.nguyentung@monash.edu">Get in touch <span aria-hidden="true">↗</span></a></div>
+    </nav>
     <audio id="name-pronunciation">
       <source src="audio/pronunciation.wav" type="audio/wav">
       Your browser does not support the audio element.
@@ -26,58 +31,58 @@
 
     <header>
         <div class="header-content">
-            <div class="name-container">
-                <h1>Lam Nguyen Tung</h1>
-                <div class="name-audio" onclick="playAudio()" title="Sounds like 'Lamb'"><i class="fas fa-volume-up"></i> Lâm /læm/</div>
+            <p class="eyebrow"><span class="status-dot"></span> Software engineering researcher</p><div class="name-container">
+                <h1><em>Lam</em> Nguyen Tung</h1>
+                <button class="name-audio" onclick="playAudio()" title="Play name pronunciation"><i class="fas fa-volume-up" aria-hidden="true"></i> Lâm /læm/</button>
             </div>
-            <p>PhD Candidate @ Monash</p>
+            <p class="hero-role">PhD Candidate at Monash University</p><p class="hero-statement">Working towards software and AI we can <em>trust.</em></p>
             <div class="social-links-header">
-                <a href="https://scholar.google.com/citations?user=i0vG-4UAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i><span>Scholar</span></a>
-                <a href="https://github.com/lamntu"><i class="fab fa-github"></i><span>GitHub</span></a>
-                <a href="https://www.linkedin.com/in/tung-lam-nguyen-659209265/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
-                <a href="https://orcid.org/0009-0000-3038-8403"><i class="fab fa-orcid"></i><span>ORCID</span></a>
-                <a href="files/mycv.pdf"><i class="fas fa-id-badge"></i><span>Resume</span></a>
-                <a href="mailto:lam.nguyentung@monash.edu"><i class="fas fa-envelope"></i><span>Email</span></a>
+                <a href="https://scholar.google.com/citations?user=i0vG-4UAAAAJ&hl=en"><i aria-hidden="true" class="fas fa-graduation-cap"></i><span>Scholar</span></a>
+                <a href="https://github.com/lamntu"><i aria-hidden="true" class="fab fa-github"></i><span>GitHub</span></a>
+                <a href="https://www.linkedin.com/in/tung-lam-nguyen-659209265/"><i aria-hidden="true" class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
+                <a href="https://orcid.org/0009-0000-3038-8403"><i aria-hidden="true" class="fab fa-orcid"></i><span>ORCID</span></a>
+                <a href="files/mycv.pdf"><i aria-hidden="true" class="fas fa-id-badge"></i><span>Resume</span></a>
+                <a href="mailto:lam.nguyentung@monash.edu"><i aria-hidden="true" class="fas fa-envelope"></i><span>Email</span></a>
             </div>
         </div>
         <div class="header-image">
-            <img onclick="openModal('/images/my-photo.png')" onContextMenu="return false;" draggable="false" src="images/my-photo.png" alt="Profile Photo">
+            <button class="portrait-button" onclick="openModal('images/my-photo.png')" aria-label="View portrait"><img draggable="false" src="images/my-photo.png" alt="Lam Nguyen Tung"></button><div class="portrait-caption"><span>Based in Melbourne, Australia</span><span>↘</span></div>
         </div>
     </header>
 
     <main>
-        <section id="about">
+        <section id="about"><h2><span class="section-number">I /</span> A little about me</h2>
             <p>I began my Ph.D in Software Engineering (SE) at Monash University in 2024, under the supervision of Prof. <a href="https://research.monash.edu/en/persons/aldeida-aleti">Aldeida Aleti</a>, Dr. <a href="https://xiaoningdu.github.io/">Xiaoning Du</a>, and Dr. <a href="https://www.rmit.edu.au/profiles/n/neelofar-neelofar">Neelofar</a>. Previously, I received both my Master’s and Bachelor’s degrees from the University of Engineering and Technology, Vietnam National University, under the supervision of A/Prof. <a href="https://uet.vnu.edu.vn/~hungpn/">Pham Ngoc Hung</a>.</p>
         </section>
 
         <section id="news">
-            <h2>News</h2>
-            <div class="news-container">
+            <h2><span class="section-number">II /</span> Latest updates</h2>
+            <div class="news-container" id="news-container">
                 <ul id="news-list" class="news-list">
                 </ul>
-            </div>
+            </div><button class="text-button" id="news-toggle" aria-expanded="false">View all updates <span aria-hidden="true">↗</span></button>
         </section>
 
         <section id="research">
-            <h2>Research</h2>
+            <h2><span class="section-number">III /</span> Research interests</h2>
             <div class="research-container">
                 <div class="research-item">
                     <div class="research-item-title">Trustworthy AI and Testing</div>
-                    <img onContextMenu="return false;" draggable="false" src="images/illustra_trustworthyai.png"/>
+                    <img onContextMenu="return false;" draggable="false" src="images/illustra_trustworthyai.png" alt="Illustration of trustworthy artificial intelligence" loading="lazy"/>
                     <div>
                         <p>I am especially interested in testing the trustworthiness of AI-based tools for coding tasks, ensuring they provide explainable outputs aligning with SE standards.</p>
                     </div>
                 </div>
                 <div class="research-item">
                     <div class="research-item-title">LLMs for Code</div>
-                    <img onContextMenu="return false;" draggable="false" src="images/illustra_llm4code.png"/>
+                    <img onContextMenu="return false;" draggable="false" src="images/illustra_llm4code.png" alt="Illustration of language models for code" loading="lazy"/>
                     <div>
                         <p>I'm currently visiting Prof. <a href="http://www.mysmu.edu/faculty/davidlo">David Lo</a>'s research group at SMU and working on <a href="https://titancaproject.github.io/">TITAN</a>, a collaborative SMU-GovTech project on intelligent vulnerability discovery.</p>
                     </div>
                 </div>
                 <div class="research-item">
                     <div class="research-item-title">Traditional Software Testing</div>
-                    <img onContextMenu="return false;" draggable="false" src="images/illustra_se_testing.png"/>
+                    <img onContextMenu="return false;" draggable="false" src="images/illustra_se_testing.png" alt="Illustration of software testing" loading="lazy"/>
                     <div>
                         <p>From 2018 to 2024, I led a team in collaborative projects with <a href="https://fptsoftware.com/">FPT Software Ltd.</a> and <a href="https://viettel.com.vn/en/">Viettel Group</a> on automated unit testing, code change analysis, and regression testing.</p>
                     </div>
@@ -95,15 +100,15 @@
         </section>
 
         <section id="publications">
-            <button onclick="window.open('https://scholar.google.com/citations?user=i0vG-4UAAAAJ&hl=en','_blank')" id="toggle-publications" class="toggle-publications">Show All</button>
-            <h2 id="toggle-header">Selected Publications</h2>
+            <button onclick="window.open('https://scholar.google.com/citations?user=i0vG-4UAAAAJ&hl=en','_blank')" id="toggle-publications" class="toggle-publications">All publications ↗</button>
+            <h2 id="toggle-header"><span class="section-number">IV /</span> Selected publications</h2>
             <div id="publications-container">
                 <!-- Publications will be dynamically loaded here -->
             </div>
         </section>
 
         <section id="awards">
-            <h2>Awards</h2>
+            <h2><span class="section-number">V /</span> Recognition</h2>
             <div class="award-item">
                 <span class="award-year">2025 – 2026</span>
                 <div class="award-desc">Visiting Scholarship at SOAR lab, Singapore Management University, Singapore</div>
@@ -123,7 +128,7 @@
         </section>
 
         <section id="services">
-            <h2>Services</h2>
+            <h2><span class="section-number">VI /</span> Academic service</h2>
             <div class="service-category">
                 <div class="service-title">Reviewer</div>
                 <ul>
@@ -166,11 +171,11 @@
     </main>
 
     <footer>
-        <p>© 2025 <a href="#">Lam Nguyen Tung</a>. Last updated: Oct 2025.</p>
+        <a class="footer-name" href="#top">Let’s make better <em>software</em> and <em>AI.</em></a><a href="mailto:lam.nguyentung@monash.edu">lam.nguyentung@monash.edu ↗</a><p>© 2026 Lam Nguyen Tung <a href="#top">Back to top ↑</a></p>
     </footer>
 
-    <div id="imageModal" class="modal">
-        <span class="modal-close" onclick="closeModal()">&times;</span>
+    <div id="imageModal" class="modal" role="dialog" aria-modal="true" aria-label="Image preview">
+        <button class="modal-close" onclick="closeModal()" aria-label="Close image preview">&times;</button>
         <div id="modalContent" style="height: 100%; display: flex;">
         </div>
     </div>

@@ -3,12 +3,20 @@ let allNews = []
 let allPublications = [];
 let showingSelected = true;
 let btnAudio;
+let showingAllNews = false;
+let modalTrigger;
 
 // Initialize the page
 document.addEventListener('DOMContentLoaded', function() {
   // Load publications and news data
   loadPublications();
-  loadNews()
+  loadNews();
+  document.getElementById('news-toggle').addEventListener('click', function () {
+    showingAllNews = !showingAllNews;
+    this.setAttribute('aria-expanded', String(showingAllNews));
+    this.textContent = showingAllNews ? 'Show fewer updates ↑' : 'View all updates ↗';
+    renderNews();
+  });
 
   // Initialize animation delays for sections
   const sections = document.querySelectorAll('section');
@@ -28,8 +36,9 @@ document.addEventListener('DOMContentLoaded', function() {
 document.body.addEventListener('click', function(e) {
     var target = e.target;
     do {
-        if (target.nodeName.toUpperCase() === 'A' && target.href && target.href.startsWith("http") && !target.href.endsWith("#")) {
+        if (target.nodeName.toUpperCase() === 'A' && target.href && target.href.startsWith("http") && target.origin !== window.location.origin) {
             target.target = '_blank';
+            target.rel = 'noopener noreferrer';
             break;
         }
     } while (target = target.parentElement);
@@ -123,7 +132,7 @@ function renderNews() {
   // }
   newsContainer.innerHTML = '';
   
-  allNews.forEach(news => {
+  (showingAllNews ? allNews : allNews.slice(0, 3)).forEach(news => {
     const newElement = document.createElement('li');
     newElement.className = "award-item"
     
@@ -173,7 +182,7 @@ function createPublicationElement(publication) {
   // Format authors with highlighting
   let authorsHTML = '';
   publication.authors.forEach((author, index) => {
-    if (author.includes('Lam Nguyen Tung')) { // TODO: Highlight specific author
+    if (author.includes('Lam Nguyen Tung')) {
       authorsHTML += `<span class="highlight-name">${author}</span>`;
     } else {
       authorsHTML += author;
@@ -265,21 +274,27 @@ function createPublicationElement(publication) {
 // Modal functionality for viewing original images
 function openModal(imageSrc) {
   const modal = document.getElementById('imageModal');
+  modalTrigger = document.activeElement;
   const modalContent = document.getElementById('modalContent');
+  document.body.style.overflow = 'hidden';
   modalContent.innerHTML = '';
   modal.style.display = "block";
+  modal.querySelector(".modal-close").focus();
   setTimeout(() => {
     modal.classList.add('show');
   }, 10);
   const modalImg = document.createElement('img');
   modalImg.className = 'modal-content'
   modalImg.src = imageSrc;
+  modalImg.alt = "Expanded photograph";
   modalContent.appendChild(modalImg);
 }
 
 function closeModal() {
   const modal = document.getElementById('imageModal');
   modal.classList.remove('show');
+  document.body.style.overflow = '';
+  modalTrigger?.focus();
   setTimeout(() => {
     modal.style.display = "none";
   }, 300);
@@ -288,7 +303,17 @@ function closeModal() {
 // Close modal when clicking outside the image
 window.onclick = function(event) {
   const modal = document.getElementById('imageModal');
-  if (event.target == modal) {
+  if (event.target == modal || event.target.id === 'modalContent') {
     closeModal();
   }
 }
+
+document.addEventListener('keydown', event => {
+  const modal = document.getElementById('imageModal');
+  if (modal.style.display !== 'block') return;
+  if (event.key === 'Escape') closeModal();
+  if (event.key === 'Tab') {
+    event.preventDefault();
+    modal.querySelector('.modal-close').focus();
+  }
+});
