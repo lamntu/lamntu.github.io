@@ -29,7 +29,7 @@
       }
     },
     {
-      "title": "When LLMs Generate Correct Security Patches for the Wrong Reasons: Benchmark and Detection",
+      "title": "Benchmarking and Detecting Explanation Inconsistencies in LLM-based Vulnerability Repair",
       "authors": [
         "Lam Nguyen Tung", "Aldeida Aleti", "Xiaoning Du", "Neelofar Neelofar", "Matias Martinez", "Justyna Petke", "Federica Sarro"
       ],
@@ -39,6 +39,19 @@
       "award": "",
       "links": {
         "pdf": "files/TSE_SusVF_UntrustworthyAVR.pdf"
+      }
+    },
+    {
+      "title": "Detecting Incorrect LLM Explanations for Automated Program Repair",
+      "authors": [
+        "Lam Nguyen Tung", "Chenxi Gu", "Xiaoning Du", "Haoye Tian", "Aldeida Aleti", "Neelofar Neelofar"
+      ],
+      "venue": "Preprint",
+      "thumbnail": "images/thumbs/2.jpg",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2610.38311v1"
       }
     },
     {
